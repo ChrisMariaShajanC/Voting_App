@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Votely</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="loginBody">
+    <div class="login">
+        <div class="loginForm">
+            <h2>Create an Account</h2>
+            <form id="registerForm">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" class="input" id="username" name="username" placeholder="Choose a username"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="input" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="input" id="password" name="password" placeholder="Create a password"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" class="input" id="confirmPassword" name="confirmPassword"
+                        placeholder="Confirm your password" required>
+                </div>
+
+                <button type="submit">Register</button>
+            </form>
+        </div>
+        <span>or</span>
+        <div class="oauth">
+            <button type="button"><img src="images/google-logo.svg" alt="" />Sign up with Google</button>
+            <button type="button"><img src="images/linkedin-logo.svg" alt="" />Sign up with LinkedIn</button>
+        </div>
+        <span>Already have an account? <a href="login.html" class="registerLink">Login</a></span>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
